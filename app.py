@@ -6,5 +6,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def index_page():
-   message = 'Добро пожаловать! 123456'
+   message = 'Добро пожаловать! 123456qwerty'
    return render_template('index.html', message=message)
