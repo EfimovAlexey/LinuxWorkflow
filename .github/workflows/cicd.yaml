@@ -71,6 +71,6 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
             cd test_cicd
-            docker pull ghcr.io/efimovalexey/linuxworkflow:main
             docker compose down
+            docker pull ghcr.io/efimovalexey/linuxworkflow:main
             docker compose up -d
